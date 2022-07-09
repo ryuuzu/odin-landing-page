@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #1f2937;
-    padding: 8px 300px;
+    padding: 8px 400px;
 }
 
 nav {
@@ -41,4 +41,43 @@ nav {
 .navlinks ul li a{
     text-decoration: none;
     color: inherit;
+}
+
+.hero-section {
+    display: flex;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.hero-section .text .main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-section .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-section .text .secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section .text .signup-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 28px;
+}
+
+.hero-section .image img {
+    flex: 2 1 auto;
+    height: 300px;
 }
